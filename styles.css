@@ -1,0 +1,114 @@
+@font-face {
+    font-family:"god of war";/*pour chercher la police*/
+    src: url(front/GODOFWAR.TTF);
+}
+
+.carre{ 
+    text-align: center;
+   
+   
+}
+body{background-color:rgb(230, 245, 245) ;}
+
+h1{ text-align: center;
+    font-family: god of war;
+    color: rgb(235, 0, 0);
+font-size: 60px;/*modifier la taille de la police*/
+text-transform: uppercase;}/*metre le texte en majuscule et pour la miniscul "lowercase"*/
+
+
+.noms
+
+#pére{color: yellow;}/*pour selectionne un element "id*/
+
+.instructions{ 
+ margin: 5% 0% 0% 0%; /*pour bouger le bloc */
+    font-family: god of war;
+    color: tomato;
+    background: #000;
+    padding:13px; /*il fais les marjes la zone du texte ds la div*/
+}
+
+.noms{
+    font-family: god of war;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+
+}
+.noms ul li {
+    display: inline;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.noms  ul li a {
+    text-decoration: none;
+}
+
+.noms ul li a:visited{ /*fair toujour visiter avant hover*/
+    color :rgb(3, 3, 3);
+}
+
+.noms ul li a:hover{ /*hover c'est*/
+    color :red;
+}
+
+.div1{
+    width: 300px;
+    height: 200px;
+    
+  
+}
+
+.div2{
+    width: 300px;
+    height: 200px;
+   
+    
+    
+}
+
+.div3{
+    width: 300px;
+    height: 200px;
+   
+}
+
+.k{
+
+margin-left: 5% ;
+display: inline-block;
+    width: 90%;
+}
+.z{
+
+    margin-left: 35% ;
+    display: inline-block;
+        width: 30%;
+    }
+.a{
+
+     margin-left: 5% ;
+    display: inline;
+    width: 90%;
+}
+.photos {
+    display: flex;
+    justify-content: space-between; /*pour aligner les images dans la meme ligne*/
+  }
+  .karim button{
+    font-family: god of war;
+    width: 100px;
+    height: 35px;
+    background: #000;
+    color: tomato;
+    transition-property:height;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+  }
+  button:hover{
+    width: 200px;
+    height: 50px;
+  }
